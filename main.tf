@@ -14,3 +14,8 @@ resource "azurerm_storage_account" "sto-block" {
     environment = "staging"
   }
 }
+
+resource "azurerm_resource_group" "rg-block1" {
+  name     = "facebook-rg1"
+  location = "West Europe"
+}

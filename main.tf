@@ -1,5 +1,5 @@
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources"
+resource "azurerm_resource_group" "rg-block" {
+  name     = "facebook-rg"
   location = "West Europe"
 }
 

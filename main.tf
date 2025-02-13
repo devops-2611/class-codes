@@ -19,3 +19,8 @@ resource "azurerm_resource_group" "rg-block1" {
   name     = "facebook-rg1"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg-block2" {
+  name     = "facebook-rg2"
+  location = "West Europe"
+}

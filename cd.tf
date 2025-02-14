@@ -9,3 +9,9 @@ resource "azurerm_resource_group" "rg-block" {
 
     location = "west us"
 }
+
+resource "azurerm_resource_group" "rg-block" {
+    name = "ananya-rg"
+
+    location = "west us"
+}

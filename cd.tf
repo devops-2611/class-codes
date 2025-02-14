@@ -4,6 +4,6 @@ resource "azurerm_resource_group" "rg-block" {
 }
 
 resource "azurerm_resource_group" "rg-block" {
-    name = "kriti"
+    name = "kriti-rg"
     location = "west us"
 }

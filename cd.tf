@@ -4,6 +4,6 @@ resource "azurerm_resource_group" "rg-block" {
 }
 
 resource "azurerm_resource_group" "rg-block" {
-    name = "ananya"
+    name = "Krity"
     location = "west us"
 }

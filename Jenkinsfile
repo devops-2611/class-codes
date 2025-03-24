@@ -9,7 +9,7 @@ pipeline {
         }
         stage('git clone') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/devops-2611/jens.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/devops-2611/class-codes.git']])
             }
         }
         stage('az login ') {

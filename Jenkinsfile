@@ -25,7 +25,7 @@ pipeline {
             steps {
 
                     bat '''
-                    cd ENV
+                    cd ENV-git
                     terraform init
                     terraform validate
                     terraform fmt

@@ -1,6 +1,6 @@
 variable "varenvrg" {}
-variable "varenvsa" {}
-variable "varenvcont" {}
+# variable "varenvsa" {}
+# variable "varenvcont" {}
 variable "varenvvn" {}
 variable "varenvsn" {}
 variable "varenvpi" {}
@@ -17,19 +17,19 @@ module "rg-mod" {
 }
 
 
-module "sa-mod" {
-  depends_on = [ module.rg-mod ]
-  source = "../SA"
-  varsa  = var.varenvsa
-}
+# module "sa-mod" {
+#   depends_on = [ module.rg-mod ]
+#   source = "../SA"
+#   varsa  = var.varenvsa
+# }
 
 
-module "cont-mod" {
-  depends_on = [ module.sa-mod ]
-  source     = "../CONT"
-  varcont    = var.varenvcont
-  varsa-data = var.varenvsa
-}
+# module "cont-mod" {
+#   depends_on = [ module.sa-mod ]
+#   source     = "../CONT"
+#   varcont    = var.varenvcont
+#   varsa-data = var.varenvsa
+# }
 
 
 module "vn-mod" {

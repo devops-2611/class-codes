@@ -13,46 +13,45 @@ varenvrg = {
 }
 
 
-varenvsa = {
-  sa1 = {
-    name                     = "applesa1"
-    resource_group_name      = "apple-rg1"
-    location                 = "east us"
-    account_replication_type = "GRS"
-    account_tier             = "Standard"
-  }
-  sa2 = {
-    name                     = "applesa2"
-    resource_group_name      = "apple-rg2"
-    location = "west us"
-    account_replication_type = "GRS"
-    account_tier             = "Standard"
-  }
-}
-varenvcont = {
-  cont1 = {
-    cont-name                  = "apple-cont1"
-    container_access_type = "private"
-    sa="sa1"
-  }
-  cont2 = {
-    cont-name                  = "apple-cont2"
-    container_access_type = "private"
-    sa="sa1"
-  }
-  cont3 = {
-    cont-name                  = "apple-cont3"
-    container_access_type = "private"
-    sa="sa2"
-  }
-  cont4 = {
-    cont-name                  = "apple-cont4"
-    container_access_type = "private"
-    sa="sa2"
-  }
+# varenvsa = {
+#   sa1 = {
+#     name                     = "applesa1"
+#     resource_group_name      = "apple-rg1"
+#     location                 = "east us"
+#     account_replication_type = "GRS"
+#     account_tier             = "Standard"
+#   }
+#   sa2 = {
+#     name                     = "applesa2"
+#     resource_group_name      = "apple-rg2"
+#     location = "west us"
+#     account_replication_type = "GRS"
+#     account_tier             = "Standard"
+#   }
+# }
+# varenvcont = {
+#   cont1 = {
+#     cont-name                  = "apple-cont1"
+#     container_access_type = "private"
+#     sa="sa1"
+#   }
+#   cont2 = {
+#     cont-name                  = "apple-cont2"
+#     container_access_type = "private"
+#     sa="sa1"
+#   }
+#   cont3 = {
+#     cont-name                  = "apple-cont3"
+#     container_access_type = "private"
+#     sa="sa2"
+#   }
+#   cont4 = {
+#     cont-name                  = "apple-cont4"
+#     container_access_type = "private"
+#     sa="sa2"
+#   }
+# }
 
-
-}
 varenvvn = {
   vn1 = {
     name                = "apple-vn1"

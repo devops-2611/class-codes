@@ -2,11 +2,11 @@
 
 varenvrg = {
   rg1 = {
-    name     = "apple-rg1"
+    name     = "apple-rgsa1"
     location = "east us"
   }
   rg2 = {
-    name     = "apple-rg2"
+    name     = "apple-rgsa2"
     location = "west us"
   }
 
@@ -15,14 +15,14 @@ varenvrg = {
 
 varenvsa = {
   sa1 = {
-    name                     = "applesa1"
+    name                     = "applesasa1"
     resource_group_name      = "apple-rg1"
     location                 = "east us"
     account_replication_type = "GRS"
     account_tier             = "Standard"
   }
   sa2 = {
-    name                     = "applesa2"
+    name                     = "applesasa2"
     resource_group_name      = "apple-rg2"
     location = "west us"
     account_replication_type = "GRS"
